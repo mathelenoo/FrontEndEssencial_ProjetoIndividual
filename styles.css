@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0; /* espaçamento de dentro, amarelo em volta do elemento */
+  box-sizing: border-box; /* zerar as config do navegador */
+}
+
+@font-face {
+  font-family: "FontGOT";
+  src: url(../ProjetoIndividual/Fonts/Game\ of\ Thrones.ttf);
+}
+
+h4 {
+  font-family: "FontGOT", sans-serif;
+}
+
+.container {
+  /* 100% da tela - ATALHO PARA COMENTAR CTRL + ; */
+  width: 100%; /* largura */
+  height: 100%; /* altura */
+  background-color: #000000;
+  background-image: url("./assets/braba.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.city_background {
+  text-shadow: 4px 4px 4px black;
+  width: 98.7vw;
+  height: 45vh;
+  background-image: url("./assets/braba.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 48px;
+  font-family: "Inter", sans-serif;
+  color: whitesmoke;
+}
+
+.city_background h2 {
+  text-align: center;
+  align-items: end;
+  align-content: end;
+}
+
+.navbar {
+  width: 100%; /* neste caso, navbar é filha da conteiner e pega 100% da classe mãe (container)*/
+  height: 10%;
+  background-color: #10002b;
+  display: flex;
+  justify-content: space-between; /* vai deixar as palavras sobre e contato com espaço e uma do lado da outra */
+}
+
+.container_logo {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-top: 0.2em;
+  margin-left: 0.5rem;
+  display: flex;
+}
+
+@font-face {
+  font-family: font_got;
+  src: url ("font_got.ttf") format (truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container_titulo {
+  /* font-family: 'FontGOT', sans-serif; */
+  display: flex;
+  color: aliceblue;
+  font: status-bar;
+  margin-left: 12rem;
+  font-size: 25px;
+  align-items: center;
+  
+}
+.container_lista {
+  /*background-color: #6b0000;*/
+  font-family: 'FontGOT';
+  display: flex;
+  display: inline-flex;
+  color: aliceblue;
+  font: status-bar;
+  gap: 1px;
+
+  /* margin-bottom: 5rem; */
+  align-items: center;
+}
+
+.container_lista li {
+  font-family: 'FontGOT';
+  list-style-type: none;
+  font-size: 10px;
+  gap: 1px;
+}
+
+.container_lista ul {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 20px; /* da espaço entre um elemento e outro */
+  font-size: 10px;
+  padding: 1rem;
+  margin-top: 15px;
+  /*margin-right: 1rem; */
+}
+
+.main_page {
+  display: flex; /* sempre colocar display FLEX para centralizar */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+  flex-direction: column;
+}
+
+.titulo {
+  display: flex; /* sempre colocar display FLEX para centralizar */
+  /* padding: 0.5rem; */
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "FontGOT";
+  /* -webkit-text-stroke-width: 0.1px; /* largura da borda */
+  /* -webkit-text-stroke-color: #000; cor da borda */
+  text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.9);
+}
+
+.subtitulo {
+  display: flex; /* sempre colocar display FLEX para centralizar */
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  text-shadow: 2px 1px 1px rgb(0, 0, 0);
+}
+.sites {
+  margin-left: 15rem;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  width: 65%;
+  text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.9);
+  /* -webkit-text-stroke-width: 0.1px; 
+  /* -webkit-text-stroke-color: #000; */
+}
+
+.fundoImagem {
+  /* background-color: rgb(40, 40, 40); */
+  /* filter: blur(5px); */
+  background-image: url("./assets/fundoTEXTOO.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vovo_ariovaldo {
+  padding: 1rem;
+  display: flex; /* sempre colocar display FLEX para centralizar */
+  justify-content: center;
+  align-items: center;
+}
+
+.ariovaldo {
+  display: flex;
+  background-color: rgb(41, 41, 41);
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 7px;
+}
+.divaldo {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  /* background-color: rgb(255, 0, 0); */
+  width: 100%;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.mariaClara {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 310px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  border: 2px solid #ccc;
+  /* box-shadow: 0 4px 8px rgba(red, green, blue, 0.1) */
+}
+.mariaClara img {
+  border: 2px solid #ccc;
+}
+
+.mariaClara h3 {
+  text-align: center;
+}
+
+.mariaClara p {
+  margin-top: 2px;
+  margin-left: 6px;
+  width: 95%;
+  font-size: 14px;
+
+  text-align: justify;
+}
+
+.sobredesenvolvedor {
+  width: 90%;
+  color: aliceblue;
+  font-family: 'FontGOT';
+  font-size: 10px;
+}
+
+.fotodopai {
+  width: 90%;
+  color: aliceblue;
+  display: flex;
+}
+
+.textofoto {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: justify;
+}
+
+.textofoto p {
+  margin: 0 auto;
+  display: inline;
+  width: 90%;
+}
+
+.fotodopai img {
+  border-radius: 50%;
+}
+
+.newsletter {
+  color: aliceblue;
+  width: 90%;
+  
+}
+
+.newsletter h2 {
+  font-family: 'FontGOT';
+  font-size: 15px;
+}
+
+.newsletter h3 {
+  text-align: center;
+}
+
+.newsletter form {
+  text-align: center;
+  align-items: center;
+}
+
+.newsletter fieldset {
+  text-align: center;
+  padding: 2rem;
+  width: 70%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+fieldset {
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 0.5rem 5rem;
+  font-size: 10;
+  border-radius: 5px;
+  background-color: #10002b;
+  color: aliceblue;
+  font: arial;
+  font-family: 'FontGOT';
+  font-size: 10px;
+}
+
+#nome {
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+#email {
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.footerfinal {
+  width: 100%; /* neste caso, navbar é filha da conteiner e pega 100% da classe mãe (container)*/
+  height: 10%;
+  background-color: #10002b;
+  display: flex;
+  justify-content: space-between; /* vai deixar as palavras sobre e contato com espaço e uma do lado da outra */
+  
+}
+
+.container_logo_footer {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-top: 0.2em;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.container_titulo_footer {
+  display: flex;
+  color: aliceblue;
+  font: status-bar;
+  margin-left: 12rem;
+  font-size: x-large;
+  align-items: center;
+}
+.container_lista_footer {
+  /*background-color: #6b0000;*/
+  display: flex;
+  color: aliceblue;
+  font: status-bar;
+  padding: 2px;
+
+  /* margin-bottom: 5rem; */
+  /* align-items: center; */
+}
+
+.container_lista_footer li {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.container_lista_footer ul {
+  display: flex;
+  gap: 20px; /* da espaço entre um elemento e outro */
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 15px;
+  margin-right: 1rem;
+}

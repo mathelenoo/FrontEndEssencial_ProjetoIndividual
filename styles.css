@@ -75,11 +75,10 @@ h4 {
   margin-left: 12rem;
   font-size: 25px;
   align-items: center;
-  
 }
 .container_lista {
   /*background-color: #6b0000;*/
-  font-family: 'FontGOT';
+  font-family: "FontGOT";
   display: flex;
   display: inline-flex;
   color: aliceblue;
@@ -91,7 +90,7 @@ h4 {
 }
 
 .container_lista li {
-  font-family: 'FontGOT';
+  font-family: "FontGOT";
   list-style-type: none;
   font-size: 10px;
   gap: 1px;
@@ -124,8 +123,8 @@ h4 {
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-family: "FontGOT";
-  /* -webkit-text-stroke-width: 0.1px; /* largura da borda */
-  /* -webkit-text-stroke-color: #000; cor da borda */
+  /* -webkit-text-stroke-width: 0.1px; 
+  -webkit-text-stroke-color: #000; cor da borda */
   text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.9);
 }
 
@@ -150,11 +149,12 @@ h4 {
 .fundoImagem {
   /* background-color: rgb(40, 40, 40); */
   /* filter: blur(5px); */
-  background-image: url("./assets/fundoTEXTOO.png");
+  background-image: url("./assets/barraLobos\ -\ Copia.png");
+  /* background-color: #10002b; */
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;  */
 }
 
 .vovo_ariovaldo {
@@ -218,7 +218,7 @@ h4 {
 .sobredesenvolvedor {
   width: 90%;
   color: aliceblue;
-  font-family: 'FontGOT';
+  font-family: "FontGOT";
   font-size: 10px;
 }
 
@@ -247,11 +247,10 @@ h4 {
 .newsletter {
   color: aliceblue;
   width: 90%;
-  
 }
 
 .newsletter h2 {
-  font-family: 'FontGOT';
+  font-family: "FontGOT";
   font-size: 15px;
 }
 
@@ -273,7 +272,6 @@ h4 {
 form {
   display: flex;
   flex-direction: column;
-  
 }
 
 fieldset {
@@ -287,7 +285,7 @@ fieldset {
   background-color: #10002b;
   color: aliceblue;
   font: arial;
-  font-family: 'FontGOT';
+  font-family: "FontGOT";
   font-size: 10px;
 }
 
@@ -313,7 +311,6 @@ fieldset {
   background-color: #10002b;
   display: flex;
   justify-content: space-between; /* vai deixar as palavras sobre e contato com espaço e uma do lado da outra */
-  
 }
 
 .container_logo_footer {

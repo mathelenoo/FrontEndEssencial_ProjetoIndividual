@@ -10,6 +10,7 @@
 - [VisualCode](https://code.visualstudio.com/)
 
 ![readme](https://github.com/mathelenoo/FrontEndEssencial_ProjetoIndividual/assets/162373434/abe65bac-7b77-4f74-9f4c-0f9c6fb5bac9)
+![readme2](https://github.com/mathelenoo/FrontEndEssencial_ProjetoIndividual/assets/162373434/2cc20133-4df9-40c6-8ead-6dc861fc0444)
 
 </div>
  <h1 align="center"> Autor </h1>

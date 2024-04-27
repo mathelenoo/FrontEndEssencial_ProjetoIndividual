@@ -1,6 +1,6 @@
 ## :desktop_computer: Contexto 
 # <h3 align="center"> Site somente com HTML e CSS que possua NavBar, Cards e footer. </h1> 
- <h5>O Reino do Norte, Winterfell, está recrutando profissionais de diversas áreas para o rigoroso inverno que se aproxima. Funciona como uma página de trabalhos, onde os usuários se aplicam por meio de um form.</h2>
+ <h5>O Reino do Norte, Winterfell, está recrutando profissionais de diversas áreas para o rigoroso inverno que se aproxima. Funciona como uma página de emprego, onde os candidatos se aplicam por meio de um forms.</h2>
 
 ## :open_file_folder: Arquivos
  <h5>O projeto contempla um arquivo index.HTML e um styles.CSS, com criação de classes, estilizações, instalação de fonte externa e edição de imagens. Também contempla um form para assinatura de NewsLetter.</h2>
